@@ -61,7 +61,7 @@ namespace WpfApp
         {
             string selectedText = (sender as ListBox).SelectedIndex.ToString();
            // MessageBox.Show(selectedText);
-        }
+        } 
     }
 
 
