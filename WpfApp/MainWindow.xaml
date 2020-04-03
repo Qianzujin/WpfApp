@@ -273,6 +273,7 @@
 
         <Grid Grid.Column="1">
             <TextBlock Text="测试"></TextBlock>
+            <Page Name="page"></Page>
         </Grid>
 
     </Grid>

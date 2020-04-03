@@ -60,7 +60,9 @@ namespace WpfApp
         private void t_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             string selectedText = (sender as ListBox).SelectedIndex.ToString();
-           // MessageBox.Show(selectedText);
+            // MessageBox.Show(selectedText);
+            this.page = new Page();
+
         } 
     }
 
